@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/tabel.css" />
+    <script type="text/javascript" src="./script/tabel.js"></script>
+    <title>Daftar Mahasiswa</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <img src="./assets/HMIF1.png" alt="Logo Website" />
+        <h1>Portal Pendaftaran Mahasiswa</h1>
+      </div>
+    </header>
+    <div class="container">
+      <aside>
+        <h2>MENU</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">Halaman Utama</a></li>
+            <li><a href="form.html">Halaman Formulir</a></li>
+            <li><a href="tabel.html">Halaman Tabel</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <h2>Daftar Mahasiswa</h2>
+        <table class="mahasiswa-table">
+          <thead>
+            <tr>
+              <th>Nama</th>
+              <th>NIM</th>
+              <th>Program Studi</th>
+              <th>Email</th>
+              <th>Password</th>
+              <th>Jenis Kelamin</th>
+              <th>Tanggal Lahir</th>
+              <th>Alamat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bintang Erlangga</td>
+              <td>121140171</td>
+              <td>Teknik Informatika</td>
+              <td>muhammad.121140171@student.itera.ac.id</td>
+              <td>sayasukauang</td>
+              <td>Laki-laki</td>
+              <td>2003-09-06</td>
+              <td>Depok</td>
+            </tr>
+            <tr>
+              <td><span id="result-nama" /></td>
+              <td><span id="result-nim" /></td>
+              <td><span id="result-prodi" /></td>
+              <td><span id="result-email" /></td>
+              <td><span id="result-password" /></td>
+              <td><span id="result-jenisKelamin" /></td>
+              <td><span id="result-tanggalLahir" /></td>
+              <td><span id="result-alamat" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+    <footer>
+      <p>&copy; M. Bintang Erlangga H. 2023</p>
+    </footer>
+  </body>
+</html>
